@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "tstable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/todayssky/TSTable",
+      "state" : {
+        "branch" : "main",
+        "revision" : "12eec6f1396cec5122e4a74604979c0ffb0d3f7a"
+      }
+    }
+  ],
+  "version" : 2
+}
