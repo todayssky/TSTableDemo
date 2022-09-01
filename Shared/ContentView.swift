@@ -14,21 +14,12 @@ struct ContentView: View {
         VStack {
             TSTableView(
                 elements: TSTablePerson.getMock(),
-                TSTableColumn(name: "name", value: \.givenName),
-                TSTableColumn(name: "familyName", value: \.familyName),
-                TSTableColumn(name: "emailAddress", value: \.emailAddress, widthRatio: 0.5)
-            )
-            .font(.footnote)
-            .padding()
-            
-            TSTableView(
-                elements: TSTablePerson.getMock(),
                 selection: $selection,
                 TSTableColumn(name: "name", value: \.givenName),
                 TSTableColumn(name: "familyName", value: \.familyName),
                 TSTableColumn(name: "emailAddress", value: \.emailAddress, widthRatio: 0.5)
             )
-            .font(.callout)
+            .font(.footnote)
             .padding()
         }
     }

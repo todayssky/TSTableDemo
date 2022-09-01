@@ -10,7 +10,7 @@
 		B748D44228BF356400FC8932 /* TSTableDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B748D43228BF356300FC8932 /* TSTableDemoApp.swift */; };
 		B748D44428BF356400FC8932 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B748D43328BF356300FC8932 /* ContentView.swift */; };
 		B748D44628BF356400FC8932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B748D43428BF356400FC8932 /* Assets.xcassets */; };
-		B74A229B28C09D48008DCB28 /* TSTable in Frameworks */ = {isa = PBXBuildFile; productRef = B74A229A28C09D48008DCB28 /* TSTable */; };
+		B74A22A728C0A4C6008DCB28 /* TSTable in Frameworks */ = {isa = PBXBuildFile; productRef = B74A22A628C0A4C6008DCB28 /* TSTable */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B74A229B28C09D48008DCB28 /* TSTable in Frameworks */,
+				B74A22A728C0A4C6008DCB28 /* TSTable in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 			);
 			name = "TSTableDemo (iOS)";
 			packageProductDependencies = (
-				B74A229A28C09D48008DCB28 /* TSTable */,
+				B74A22A628C0A4C6008DCB28 /* TSTable */,
 			);
 			productName = "TSTableDemo (iOS)";
 			productReference = B748D43928BF356400FC8932 /* TSTableDemo.app */;
@@ -114,7 +114,7 @@
 			);
 			mainGroup = B748D42C28BF356300FC8932;
 			packageReferences = (
-				B74A229928C09D48008DCB28 /* XCRemoteSwiftPackageReference "TSTable" */,
+				B74A22A528C0A4C6008DCB28 /* XCRemoteSwiftPackageReference "TSTable" */,
 			);
 			productRefGroup = B748D43A28BF356400FC8932 /* Products */;
 			projectDirPath = "";
@@ -343,7 +343,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B74A229928C09D48008DCB28 /* XCRemoteSwiftPackageReference "TSTable" */ = {
+		B74A22A528C0A4C6008DCB28 /* XCRemoteSwiftPackageReference "TSTable" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/todayssky/TSTable";
 			requirement = {
@@ -354,9 +354,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B74A229A28C09D48008DCB28 /* TSTable */ = {
+		B74A22A628C0A4C6008DCB28 /* TSTable */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B74A229928C09D48008DCB28 /* XCRemoteSwiftPackageReference "TSTable" */;
+			package = B74A22A528C0A4C6008DCB28 /* XCRemoteSwiftPackageReference "TSTable" */;
 			productName = TSTable;
 		};
 /* End XCSwiftPackageProductDependency section */
